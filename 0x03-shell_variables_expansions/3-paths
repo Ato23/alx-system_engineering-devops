@@ -1,2 +1,2 @@
 #!/bin/bash
-path.dirs=$(echo "$PATH" | tr ':' '\n') count=0
+echo "$PATH" | tr ':' '\n' wc 1
