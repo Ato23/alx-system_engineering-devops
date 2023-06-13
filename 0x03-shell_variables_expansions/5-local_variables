@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Local variables
+echo "==============="
+set | grep -P '^[a-zA-Z_][a-zA-Z_0-9]*='
+echo
+echo "Evironment variables"
+echo "====================="
+env
+echo
+echo "Functions"
+echo "=========="
+declare -F

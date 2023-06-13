@@ -1,0 +1,2 @@
+#!/bin/bash
+echo result=$(echo "ibase=water; obase=bestcho1; $WATER
