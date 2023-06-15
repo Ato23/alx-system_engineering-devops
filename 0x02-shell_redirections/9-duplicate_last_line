@@ -1,2 +1,2 @@
 #!/bin/bash
-mapfile -t lines < iacta && echo "${lines[-1]}" >> iacta
+tee -a iacta
