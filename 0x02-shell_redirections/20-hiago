@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter the input: " input; echo "Modified input: ${input//[cC]}"
+tr -d "Cc"
